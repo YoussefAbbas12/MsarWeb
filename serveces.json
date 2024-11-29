@@ -1,0 +1,50 @@
+[
+    {
+        "url": "sections/services/web-development/index.html",
+        "name": "Web Development",
+        "image": "images/img/our-services/web.png",
+        "description": "Our expert team can create stunning websites, web applications, and e-commerce solutions that are optimized for user experience and performance."
+    },
+    {
+        "url": "sections/services/mobile-development/index.html",
+        "name": "Mobile Development",
+        "image": "images/img/our-services/mobile.png",
+        "description": "Create powerful mobile applications for exceptional user experiences on iOS and Android platforms."
+    },
+    {
+        "url": "sections/services/cloud-computing/index.html",
+        "name": "Website hosting",
+        "image": "images/img/our-services/cloud.png",
+        "description": "When you get hosting, you rent space on a server that stores all the files and data for your website to function properly. We offer you the best provider for your web project development, as well as professional and secure hosting solutions."
+    },
+    {
+        "url": "sections/services/uiux-design/index.html",
+        "name": "Designs",
+        "image": "images/img/our-services/devops.png",
+        "description": "Whether you're looking for a distinctive new logo or some cool designs, there's no limit to what you can design in a MsarWeb. We provide you with the best designs through a selection of creative designers. You will get the design service that suits you."
+    },
+    {
+        "url": "sections/services/E-Marketing/index.html",
+        "name": "Digital Marketing",
+        "image": "images/img/our-services/integrations.png",
+        "description": "The possibilities for communicating on the web are limitless, but an Internet connection is not enough. We make online communication better! With the best strategies aimed at promoting your brand or selling your products online."
+    },
+    {
+        "url": "sections/services/no-code-development/index.html",
+        "name": "SEO Optimization",
+        "image": "images/img/our-services/nocode.png",
+        "description": "Think about your potential customers and the keywords they use to search on Google. We provide you with professional search engine optimization services with the aim of increasing the number of visits to your website and improving its position among the first."
+    },
+    {
+        "url": "sections/services/uiux-design/index.html",
+        "name": "UI/UX Design",
+        "image": "images/img/our-services/uiux.png",
+        "description": "Our UI/UX design services ensure that your software or application is intuitive, user-friendly, and visually appealing, helping you to stand out from the competition."
+    },
+    {
+        "url": "sections/services/Technical-support/index.html",
+        "name": "Technical support",
+        "image": "images/img/our-services/testing.png",
+        "description": "We care about helping, managing and maintaining your site to avoid any technical problem and achieve the best performance. So, if you are looking for experts to manage your website, you are in the right place."
+    }
+]
