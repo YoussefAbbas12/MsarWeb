@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Brand Identity Creation",
+        "image": "favicon-32x32.png",
+        "state": "Corporate identity design"
+    },
+    {
+        "name": "Visual Branding Strategy",
+        "image": "favicon-32x32.png",
+        "state": "Corporate identity design"
+    },
+    {
+        "name": "Smartphone App Development",
+        "image": "favicon-32x32.png",
+        "state": "Phone applications"
+    },
+    {
+        "name": "Mobile Platform Solutions",
+        "image": "favicon-32x32.png",
+        "state": "Phone applications"
+    },
+    {
+        "name": "Reliable Web Hosting",
+        "image": "favicon-32x32.png",
+        "state": "Web hosting"
+    },
+    {
+        "name": "Cloud-Based Hosting Service",
+        "image": "favicon-32x32.png",
+        "state": "Web hosting"
+    },
+    {
+        "name": "SEO Strategies",
+        "image": "favicon-32x32.png",
+        "state": "Search engine optimization"
+    },
+    {
+        "name": "Search Engine Ranking Booster",
+        "image": "favicon-32x32.png",
+        "state": "Search engine optimization"
+    },
+    {
+        "name": "Modern Website Solutions",
+        "image": "favicon-32x32.png",
+        "state": "Website design and development"
+    },
+    {
+        "name": "Advanced Web Development",
+        "image": "favicon-32x32.png",
+        "state": "Website design and development"
+    }
+]

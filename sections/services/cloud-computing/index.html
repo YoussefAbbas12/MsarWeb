@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+    <link rel="preconnect" href="https://msarweb.com/" />
+    <meta charset="utf-8">
+    <base>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Youssef mohamed abbas">
+    
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+              pageLanguage: 'en',  // استبدل 'en' بلغة موقعك الأساسية إذا كانت مختلفة
+              includedLanguages: 'en,ar,es,fr',  // تحديد اللغات المسموح بها
+              layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          }, 'google_translate_element');
+      }
+      // تغيير لغة الزر إلى الإنجليزية
+      var interval = setInterval(function() {
+        var select = document.querySelector('.goog-te-combo');
+        if (select) {
+          select.innerHTML = select.innerHTML.replace('Select Language', 'Select Language');
+          clearInterval(interval);
+        }
+      }, 100);
+
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ 
+    
+    <link rel="stylesheet" id="google-fonts-1-css" type="text/css" media="all"
+        href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;amp;display=auto&amp;amp;ver=5.8.1">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;display=swap">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" crossorigin href="https://fonts.gstatic.com/">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@600&amp;family=Poppins:wght@400;700&amp;display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@600&amp;family=Poppins:wght@700&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="../../sb/csslibs.css.css" rel="stylesheet" />
+    <link href="../../sb/pages.css" rel="stylesheet" />
+    <link href="../../sb/cssmain.css.css" no-cdn="" rel="stylesheet" />
+
+
+
+    <title>MSAR Web | Website Development And Marketing Company</title>
+    <meta name="description" content="MSAR Web | Website Development And Marketing Company" />
+    <meta property="og:title" content="MSAR Web | Website Development And Marketing Company" />
+    <meta property="og:description" content="Delivering innovative software solutions for your business needs." />
+    <meta property="og:image" content="media/xqtnngyy/opengraph.png" />
+    <link rel="canonical" href="index.html" />
+
+    <meta property="og:url" content="index.html">
+    <meta property="og:type" content="website">
+
+
+    </script>
+    <style>
+      /* تنسيق صندوق الترجمة */
+      #google_translate_element {
+          display: inline-block;
+          padding: 5px;
+          border-radius: 5px;
+      }
+
+      /* تنسيق زر الترجمة */
+      .goog-te-gadget-simple {
+          background-color: #f8961e !important; /* لون الخلفية */
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          padding: 5px;
+          font-size: 14px;
+          cursor: pointer;
+          color: white; /* لون النص */
+      }
+
+      /* تنسيق أيقونة الترجمة والنص */
+      .goog-te-gadget-icon {
+          width: 16px;
+          height: 16px;
+          background-image: none;
+          background-size: 16px 16px;
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 4px;
+      }
+
+      /* تنسيق النص داخل الزر */
+      .goog-te-menu-value span {
+          color: white !important;
+          font-weight: bold;
+          padding: 5px;
+      }
+
+      /* تنسيق قائمة اللغات */
+      .goog-te-menu2 {
+        max-height: 300px;
+        overflow-y: auto;
+        border-radius: 5px;
+        background-color: #f1f1f1; /* لون خلفية القائمة */
+        border: 1px solid #ddd; /* لون حدود القائمة */
+        padding: 10px;
+      }
+
+      .goog-te-menu2-item div, .goog-te-menu2-item span {
+          font-size: 14px;
+          padding: 8px;
+      }
+
+      .goog-te-menu2-item-selected div, .goog-te-menu2-item-selected span {
+          background-color: #f8961e !important;
+          color: white !important;
+      }
+
+      .goog-te-menu2-item:hover div, .goog-te-menu2-item:hover span {
+          background-color: #f8961e !important;
+          color: white !important;
+      }
+  </style>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-offset="70" tabindex="0" id="home">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" id="main-logo" href="index.html">
+                <img src="../../../images/img/inssio_logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-links" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ml-auto align-items-center">
+ 
+                    <li class="nav-item"><a class="nav-link text-light" href="../../../index.html">Home</a>
+                    </li> 
+ 
+                    <li class="nav-item "><a class="nav-link text-light" href="../../../sections/Projects/index.html">Our Projects</a>
+                    </li> 
+
+                    <li class="nav-item">
+                        <span href="javascript:void(0)" class="nav-item dropdown-toggle text-light" data-toggle="dropdown">Services
+                            <span class="caret"></span></span>
+                        <ul class="dropdown-menu" style="background-color: #000; align-items: center;">
+                            <li class="nav-item"><a class="nav-link text-light sub-nav-item"
+                                    href="../../../sections/services/mobile-development/index.html">Mobile Development</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link text-light sub-nav-item"
+                                    href="../../../sections/services/web-development/index.html">Web Development</a></li>
+                            <li class="nav-item"><a class="nav-link text-light sub-nav-item"
+                                    href="../../../sections/services/cloud-computing/index.html">Website hosting</a></li>
+                            <li class="nav-item"><a class="nav-link text-light sub-nav-item"
+                                    href="../../../sections/services/devops/index.html">DevOps</a></li>
+                            <li class="nav-item"><a class="nav-link text-light sub-nav-item"
+                                    href="../../../sections/services/uiux-design/index.html">UI/UX Design</a></li>
+                            <li class="nav-item"><a class="nav-link text-light sub-nav-item"
+                                    href="../../../sections/services/Technical-support/index.html">Technical support</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link text-light sub-nav-item"
+                                    href="../../../sections/services/E-Marketing/index.html">E-Marketing</a></li>
+                            <li class="nav-item"><a class="nav-link text-light sub-nav-item"
+                                    href="../../../sections/services/no-code-development/index.html">No-code
+                                    Development</a></li>
+                        </ul>
+                    </li>
+
+                    <a href="../contact/index.html" class="btn btn-primary start-project-btn">CONTACT US</a>
+                    <i id="darkMode-Icon" class="theme-icon fa-regular fa-moon" style="color: #fff; font-size: 30px; margin-left: 15px; cursor: pointer;"></i>
+                </ul>
+            </div>
+            <div id="google_translate_element"></div>
+            
+        </div>
+    </nav>
+
+
+
+    <div class="page-location">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-title text-center">
+                        <h1>Home • Cloud computing</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content container">
+        <div class="content-img">
+            <img src="../../../images/img/our-services/cloud.png">
+        </div>
+        <div class="content-text">
+            <p>Thanks to the Internet, customers have become increasingly informed, accurate, and demanding in their purchasing decisions, and with increasingly intense competition, customers today have many options to choose between many products and services. If you are looking for a marketing agency to manage your business's social media, help you highlight your brand, reach your target audience, and create and manage successful advertising campaigns, then you are in the right place.</p>
+        </div>
+    </div>
+
+    <div class="servece-cards container">
+        <div class="cards-title">
+            <p>Massar offers you</p>
+            <h2>Support and assistance</h2>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="../../img/hiring-process/04-tech-interview.png">
+                <h3>Search engine marketing</h3>
+                <p>The customer who searches for information online about the products or services you provide is the customer who is closest to purchasing, and we bring him closer.</p>
+            </div>
+            <div class="card">
+                <img src="../../img/hiring-process/04-tech-interview.png">
+                <h3>Search engine marketing</h3>
+                <p>The customer who searches for information online about the products or services you provide is the customer who is closest to purchasing, and we bring him closer.</p>
+            </div>
+            <div class="card">
+                <img src="../../img/hiring-process/04-tech-interview.png">
+                <h3>Search engine marketing</h3>
+                <p>The customer who searches for information online about the products or services you provide is the customer who is closest to purchasing, and we bring him closer.</p>
+            </div>
+            <div class="card">
+                <img src="../../img/hiring-process/05-feedback.png">
+                <h3>Search engine marketing</h3>
+                <p>The customer who searches for information online about the products or services you provide is the customer who is closest to purchasing, and we bring him closer.</p>
+            </div>
+            <div class="card">
+                <img src="../../img/hiring-process/05-feedback.png">
+                <h3>Search engine marketing</h3>
+                <p>The customer who searches for information online about the products or services you provide is the customer who is closest to purchasing, and we bring him closer.</p>
+            </div>
+            <div class="card">
+                <img src="../../img/hiring-process/05-feedback.png">
+                <h3>Search engine marketing</h3>
+                <p>The customer who searches for information online about the products or services you provide is the customer who is closest to purchasing, and we bring him closer.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        completed = function (xhr) {
+            $("#contact-form-container").hide();
+            $(".inquiry-sent").show();
+        };
+    </script>
+
+
+    <a href="#" class="whats-container">
+        <div class="whats-Icon">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="whats-content">
+            <p>Do you meed help?</p>
+            <p style="font-weight: bold; text-decoration: underline;">contact with us</p>
+        </div>
+    </a>
+
+
+<div class="footer-con">
+    <div style="height: auto;" class="footer container  d-flex flex-column justify-content-between">
+        <div class="footer-cont">
+            <div class="">
+                <div class="footer-logo">
+                    <img src="../../../images/msar.png">
+                </div>
+                <div class="footer-address d-flex">
+                    <i class="fa-regular fa-map"></i>
+                    <p>جمهورية مصر العربية - محافظة المنوفية - مدينة منوف - ش. الجيش - برج سيتي ستارز أعلى بنك الإسكان والتعمير<br>
+                        ‏‎Minuf‎‏، ‏‎Monufia Governorate‎‏، ‏‎Egypt‎‏
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-column justify-content-between">
+                <div class="goals">
+                    <div class="footer-title">
+                        Our goals
+                    </div>
+                    <p>At Masar Web, we seek to build your electronic path with the best quality and price and in the fastest time, to contribute to the success of your electronic project.</p>
+                </div>
+                <div class="footer-contact d-flex">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="btn-box">
+                        <a href="#contact-form" class="btn btn-primary start-project-btn scroll-to">Start Your Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="dates h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="footer-title">
+                            Times of Work
+                        </div>
+                        <p>Saturday - Thursday (10:00 AM / 10:00 PM)</p>
+                    </div>
+                    <div class="social-icons">
+                    <a href="https://www.facebook.com/MsarWeb?mibextid=ZbWKwL" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://youtube.com/@msarweb4668" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/msarweb/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/92715968" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <hr>
+            <p>Electronic Marketing • Website Design and Development • Website Hosting • Search Engine Optimization • Mobile Application Design and Development • Technical Support and Maintenance</p>
+            <p class="text-center" style="margin: 33px 0;">All Copyright Reserved for MSAR© 2023</p>
+        </div>
+    </div>    
+</div>
+
+
+
+
+
+    <script src="../../sb/jslibs.js.v1ea2fdf206955ac2fcc65b7fe7cb15fa45465d58.js"></script>
+    <script no-cdn="" src="../..//sb/jsmain.js.v1ea2fdf206955ac2fcc65b7fe7cb15fa45465d58.js"></script>
+
+    <script type="text/javascript">
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "fd6jurdk0l");
+
+    </script>
+    <script type="text/javascript">
+
+        _linkedin_partner_id = "4622954";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script type="text/javascript">
+        (function (l) {
+            if (!l) {
+                window.lintrk = function (a, b) { window.lintrk.q.push([a, b]) };
+                window.lintrk.q = []
+            }
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript"; b.async = true;
+            b.src = "snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })(window.lintrk);
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt=""
+            src="https://px.ads.linkedin.com/collect/?pid=4622954&amp;fmt=gif" alt="px.ads.linkedin" />
+    </noscript><!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F9FXTBQ2T0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-F9FXTBQ2T0');
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('.subTitle', {
+            strings: ["Web Development", "Mobile Development",
+                "Website hosting", "Designs", "E-Marketing", "SEO Optimization",
+                "UI/UX Design", "Technical support"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        });
+    </script>
+
+
+    <script>
+        let darkModeIcon = document.querySelector('#darkMode-Icon');
+
+        darkModeIcon.addEventListener('click', () => {
+            document.body.classList.toggle('darkMode');
+            darkModeIcon.classList.toggle('fa-moon');
+            darkModeIcon.classList.add('fa-sun');
+        })
+
+    </script>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        ScrollReveal({ reset: false });
+    </script>
+
+
+    <script>
+        ScrollReveal({ 
+            distance: '80px',
+            duration: 2000,
+            delay: 250 
+        });
+
+
+        ScrollReveal().reveal('.start-project-btn , .service-box', { origin: 'bottom' });
+        ScrollReveal().reveal('#main-logo ,  .theme-icon , .main-banner-content h1 , .turn-your-ideas , #contact-form .form-box', { origin: 'left' });
+        ScrollReveal().reveal('.contact-us-btn ,.main-banner-content .text , .owl-carousel.owl-loaded , .map-container', { origin: 'right' });
+
+    </script>
+
+
+</body>
+
+</html>
